@@ -45,3 +45,11 @@ DL したイメージの確認
 
 # docker rm コンテナID
 ```
+
+---
+# イメージの削除
+```
+# docker images
+
+# docker rmi イメージID
+```
