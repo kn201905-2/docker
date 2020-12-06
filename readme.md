@@ -20,6 +20,9 @@ DL したイメージの確認
 -t : Allocate a pseudo-tty
 -d : コンテナをデタッチド・モードで起動
 --name : コンテナに名前を付ける
+
+コンテナ内に入るとき
+# docker attach コンテナ名
 ```
 
 ---
