@@ -3,6 +3,7 @@ https://www.sejuku.net/blog/82240
 ---
 * Docker Hub からイメージを DL する。
 ```
+イメージは、https://hub.docker.com/ から調べることができる。
 # docker pull ubuntu:18.04
 
 DL したイメージの確認
@@ -41,4 +42,6 @@ DL したイメージの確認
 
 停止したことの確認
 # docker ps -a
+
+# docker rm コンテナID
 ```
