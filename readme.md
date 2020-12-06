@@ -35,9 +35,10 @@ DL したイメージの確認
 ```
 
 ---
-* コンテナの停止＆削除
+* コンテナの停止＆再起動＆削除
 ```
 # docker stop my-ubuntu
+# docker restart my-ubuntu
 # docker rm my-ubuntu
 
 停止したことの確認
