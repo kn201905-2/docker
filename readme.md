@@ -60,8 +60,11 @@ DL したイメージの確認
 ```
 
 ---
-* イメージ、コンテナの save、load
+* イメージ、コンテナの commit、save、load
 ```
+# docker commit 既存のコンテナ名 保存するイメージ名
+# docker commit mycentos mycentos_with_httpd
+
 https://docs.docker.jp/engine/reference/commandline/save.html
 https://docs.docker.jp/engine/reference/commandline/load.html
 # docker save sample-image > sample-image.tar
