@@ -58,3 +58,17 @@ DL したイメージの確認
 
 # docker rmi イメージID
 ```
+
+---
+* イメージ、コンテナの save、load
+```
+https://docs.docker.jp/engine/reference/commandline/save.html
+https://docs.docker.jp/engine/reference/commandline/load.html
+# docker save sample-image > sample-image.tar
+# docker load < sample-image.tar
+
+https://docs.docker.jp/engine/reference/commandline/export.html
+https://docs.docker.jp/engine/reference/commandline/import.html
+# docker export sample-container > sample-container.tar
+# cat example-container.tar | docker import - new-image:latest
+```
