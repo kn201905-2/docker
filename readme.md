@@ -13,12 +13,14 @@ DL したイメージの確認
 ---
 * イメージの実行
 ```
-# docker run -it -d --name my-ubuntu ubuntu:18.04
+https://docs.docker.jp/engine/reference/commandline/run.html
+# docker run -it -d -p 8080:80 --name my-ubuntu ubuntu:18.04
 
 オプション
 -i : Keep STDIN open even if not attached
 -t : Allocate a pseudo-tty
 -d : コンテナをデタッチド・モードで起動（コンテナをデーモン化する）
+-p : ポートマッピング。「ホスト側：コンテナ側」の順序で記述
 --name : コンテナに名前を付ける（名前を付けなくても良いが、その後の操作が楽になる。コンテナIDで操作するより、コンテナ名での操作が簡単。）
 
 コンテナ内に入るとき
