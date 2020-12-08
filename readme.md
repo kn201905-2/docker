@@ -15,7 +15,7 @@ DL したイメージの確認
 * イメージの実行
 ```
 https://docs.docker.jp/engine/reference/commandline/run.html
-# docker run -it -d -v /home/docker_share:/home/host_share -p 8080:80 --name my-ubuntu ubuntu:18.04
+# docker run -it -d -v /home/docker_share:/home/host_share -p 8080:80 -w /home/dev/chatbot --name myubuntu ubuntu:18.04
 
 オプション
 -i : Keep STDIN open even if not attached
